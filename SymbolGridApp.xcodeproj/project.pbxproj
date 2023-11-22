@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0726D8D42B0CDFA2009150EE /* SymbolGridAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0726D8D32B0CDFA2009150EE /* SymbolGridAppApp.swift */; };
+		0726D8D42B0CDFA2009150EE /* SymbolGridApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0726D8D32B0CDFA2009150EE /* SymbolGridApp.swift */; };
 		0726D8D62B0CDFA2009150EE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0726D8D52B0CDFA2009150EE /* ContentView.swift */; };
 		0726D8D82B0CDFA3009150EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0726D8D72B0CDFA3009150EE /* Assets.xcassets */; };
 		0726D8DB2B0CDFA3009150EE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0726D8DA2B0CDFA3009150EE /* Preview Assets.xcassets */; };
+		0777FB732B0DC33C00A0B28F /* SymbolGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777FB722B0DC33C00A0B28F /* SymbolGrid.swift */; };
+		0777FB752B0DC3E200A0B28F /* Symbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777FB742B0DC3E200A0B28F /* Symbol.swift */; };
+		0777FB772B0DC41000A0B28F /* SymbolDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777FB762B0DC41000A0B28F /* SymbolDetail.swift */; };
+		0777FB792B0DC85C00A0B28F /* SymbolPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0777FB782B0DC85C00A0B28F /* SymbolPicker.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0726D8D02B0CDFA2009150EE /* SymbolGridApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SymbolGridApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		0726D8D32B0CDFA2009150EE /* SymbolGridAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolGridAppApp.swift; sourceTree = "<group>"; };
+		0726D8D32B0CDFA2009150EE /* SymbolGridApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolGridApp.swift; sourceTree = "<group>"; };
 		0726D8D52B0CDFA2009150EE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0726D8D72B0CDFA3009150EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0726D8DA2B0CDFA3009150EE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0777FB722B0DC33C00A0B28F /* SymbolGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolGrid.swift; sourceTree = "<group>"; };
+		0777FB742B0DC3E200A0B28F /* Symbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Symbol.swift; sourceTree = "<group>"; };
+		0777FB762B0DC41000A0B28F /* SymbolDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolDetail.swift; sourceTree = "<group>"; };
+		0777FB782B0DC85C00A0B28F /* SymbolPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolPicker.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,7 +59,11 @@
 		0726D8D22B0CDFA2009150EE /* SymbolGridApp */ = {
 			isa = PBXGroup;
 			children = (
-				0726D8D32B0CDFA2009150EE /* SymbolGridAppApp.swift */,
+				0726D8D32B0CDFA2009150EE /* SymbolGridApp.swift */,
+				0777FB742B0DC3E200A0B28F /* Symbol.swift */,
+				0777FB762B0DC41000A0B28F /* SymbolDetail.swift */,
+				0777FB722B0DC33C00A0B28F /* SymbolGrid.swift */,
+				0777FB782B0DC85C00A0B28F /* SymbolPicker.swift */,
 				0726D8D52B0CDFA2009150EE /* ContentView.swift */,
 				0726D8D72B0CDFA3009150EE /* Assets.xcassets */,
 				0726D8D92B0CDFA3009150EE /* Preview Content */,
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				0726D8D62B0CDFA2009150EE /* ContentView.swift in Sources */,
-				0726D8D42B0CDFA2009150EE /* SymbolGridAppApp.swift in Sources */,
+				0777FB752B0DC3E200A0B28F /* Symbol.swift in Sources */,
+				0726D8D42B0CDFA2009150EE /* SymbolGridApp.swift in Sources */,
+				0777FB792B0DC85C00A0B28F /* SymbolPicker.swift in Sources */,
+				0777FB772B0DC41000A0B28F /* SymbolDetail.swift in Sources */,
+				0777FB732B0DC33C00A0B28F /* SymbolGrid.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
